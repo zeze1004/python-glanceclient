@@ -661,3 +661,6 @@ def main():
         if utils.debug_enabled(argv) is True:
             traceback.print_exc()
         utils.exit(encodeutils.exception_to_unicode(e))
+
+if __name__ == '__main__':
+    main()
